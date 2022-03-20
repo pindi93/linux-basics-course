@@ -1,6 +1,6 @@
 # Basic Linux Commands
 
-- Take me to the [Video Tutorial](https://kodekloud.com/courses/873064/lectures/17309223)
+- 
 
 In this section, we will take a look at basic linux commands 
 - Specifically related to navigation and creating new files and directories.
@@ -71,27 +71,7 @@ To Change to a directory with relative path. Run **`cd <directoryName>`**
 $ cd Asia
 ```
 
-#### Lets now take a look at alternatives to the **`cd`** command
 
-![pushd_popd](../../images/pushd_popd.PNG)
-
-Alternative to the **`cd`** is the **`pushd\popd`** command. To change directory using pushd, run **`pushd <directory_name>`**
-```
-$ pushd /etc
-```
-
-You can change to subdirecties under /etc as many times as you wish
-```
-$ pushd /var
-$ pushd /tmp
-$ pwd
-/etc/var/tmp
-```
-
-To return back to origin directory(say your home directory), use the **`popd`** command
-```
-$ popd
-```
 
 #### Now lets move on to look some more basic commands in linux. To learn these commands we will make use of the same directory structure as before, however now there are some new files and directories added as shown in the diagram. The goal of this task is to make sure the directory structure looks like the below diagram .
 
